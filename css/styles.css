@@ -36,6 +36,15 @@ h6 {
     overflow: hidden;
 }
 
+
+img {
+    display: block;
+    max-width: 100%;
+    /* Чтобы картинка не выходила за границы родителя */
+    height: auto;
+    /* Сохраняет пропорции */
+}
+
 .container {
     /* max-width: */
     /* padding-left:  */
@@ -63,7 +72,7 @@ h6 {
     background: #fff;
     border-bottom: 1px solid;
 
-
+    border-bottom: 1px solid #e7e9fc;
     box-sizing: border-box;
 }
 
@@ -183,7 +192,7 @@ h6 {
 
 .section-blue {
     background: #2e2f42;
-    /* padding: auto; */
+    padding: 188px 0
 }
 
 .title {
@@ -196,6 +205,7 @@ h6 {
     color: #fff;
     max-width: 496px;
     margin: 0 auto;
+    margin-bottom: 72px;
     text-align: center;
 }
 
@@ -209,12 +219,18 @@ h6 {
     color: #ffffff;
     cursor: pointer;
     border: none;
-    /* margin: 0 auto; */
+    
+    display: block;
+    margin: 0 auto;
 
-    /* border-radius: 4px; */
+    min-width: 169px;
+
+
     padding: 16px 32px;
-    /* width: 169px; */
-    /* height: 56px; */
+
+    border-radius: 4px;
+
+  
     min: width 169px;
     min: height 56px;
 
@@ -261,6 +277,7 @@ h6 {
 
 .section-white {
     background-color: #FFFFFF
+    padding: 120px 0;
 }
 
 .subtitle-white-one {}
@@ -275,6 +292,7 @@ h6 {
 .section-white-item {
     
     flex-basis: calc( (100% - 72) / 4);
+    border-radius: 0px 0px 4px 4px;
 
 }
 
@@ -286,6 +304,11 @@ h6 {
     line-height: 120%;
     letter-spacing: 0.02em;
     color: #2e2f42;
+
+    margin-bottom: 8px;
+
+    text-align: center;
+    
 }
 
 .white-text {
@@ -297,6 +320,12 @@ h6 {
     color: #434455;
 }
 
+
+.section-white-list {
+    padding: 32px 0;
+
+
+}
 
 
 
@@ -317,6 +346,9 @@ h6 {
 
 .section-darkwhite {
     background: #f4f4fd;
+    /* padding: 120px 0; */
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .subtitle {
@@ -352,7 +384,7 @@ h6 {
     color: #2e2f42;
     max-width: 162px;
     margin: 0 auto;
-    /* margin-bottom: ; */
+    margin-bottom: 72px;
 }
 
 .section-darkwhite-txt {
