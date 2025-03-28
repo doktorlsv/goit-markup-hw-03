@@ -349,18 +349,14 @@ margin: 0 auto;
     display: flex;
     gap: 24px;
     width: calc((100% - 3 * 24px) / 4);
+    
+    width: 100%;
+            /* Или задайте конкретную ширину в пикселях или процентах */
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
 }
-.section-white h2:first-of-type {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    border: 0;
-    clip: rect(0, 0, 0, 0);
-    clip-path: inset(50%);
-    overflow: hidden;
-}
+
 
 
 
@@ -379,6 +375,9 @@ margin: 0 auto;
     /* padding: 120px 0; */
     padding-top: 120px;
     padding-bottom: 120px;
+
+
+    
 }
 
 .subtitle {
@@ -390,12 +389,20 @@ margin: 0 auto;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+
+    text-align: center;
+       
+    margin-bottom: 72px;
+      
+
+    /* width: calc((100% - 72px) / 4) */
 }
 
 .section-darkwhite-navigation {
     
     display: flex;
     gap: 24px;
+    justify-content: center;
 
 }
 
@@ -403,6 +410,11 @@ margin: 0 auto;
     background-color: #FFFFFF;
     flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+   
+    
+    text-align: center;
+    padding: 32px 16px;
+        
 }
 
 .section-title {
@@ -417,7 +429,11 @@ margin: 0 auto;
     margin: 0 auto;
     /* margin-bottom: 72px; */
     text-align: center;
-    margin-bottom: 8px
+    margin-bottom: 8px;
+
+
+    /* line-height: 1.2; */
+    /* margin-bottom: 4px; */
 }
 
 .section-darkwhite-txt {
@@ -428,13 +444,22 @@ margin: 0 auto;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-    text-align: center
+    text-align: center;
+    /* margin-bottom: 32px; */
+    /* margin-bottom: 0; */
 }
 
 .section-darkwhite-hero {
 
     width: calc((100% - 72px) / 4);
-    padding: 32px 0
+    /* padding: 32px 0 */
+
+    padding-top: 32px;
+    display: flex;
+        
+    flex-direction: column;
+    justify-content: flex-end;
+        
 
 }
     
