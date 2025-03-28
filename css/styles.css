@@ -81,17 +81,19 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* Раздвигаем элементы */
-    max-width: 1200px;
+   
+    /* max-width: 1200px; */
     margin: 0 auto;
     padding: 0 15px;
+
+    width: 1158px;
 }
 
 .header-navigation {
     display: flex;
     align-items: center;
     gap: 40px;
-    /* Расстояние между логотипом и меню */
+   
 }
 
 
@@ -103,7 +105,8 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    /* margin-right: 76px; */
+  
+    margin-right: 76px
 
 }
 
@@ -113,17 +116,17 @@ img {
 }
 
 .menu-list {
-        display: flex;
-        gap: 40px;
-        /* Расстояние между пунктами меню */
-        list-style: none;
-        margin: 0;
-        padding: 0;
+    display: flex;
+    gap: 40px;
+        
+    list-style: none;
+    margin: 0;
+    padding: 0;
     
 }
 
 .header-menu-item {
-    /* padding: 24px 0; */
+     padding: 24px 0; 
 
 }
 
@@ -276,7 +279,7 @@ img {
 
 
 .section-white {
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
     padding: 120px 0;
 }
 
@@ -412,27 +415,30 @@ img {
 
 
 
-.section-portfolio {}
+.section-portfolio {
+
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 .subtitle {
     text-transform: capitalize;
     max-width: 218px;
     margin: 0 auto;
     text-align: center;
+    margin-bottom: 72px;
 }
 
 .section-portfolio-navigation {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 48px;
 }
 
 .section-portfolio-item {
     
-    /* border: 1px solid #ccc; */
-    /* padding: 10px; */
-    /* margin: 10px; */
-    /* box-sizing: border-box; */
+    width: calc((100% - 48px) / 3);
         
 }
 
@@ -443,6 +449,8 @@ img {
     line-height: 120%;
     letter-spacing: 0.02em;
     color: #2e2f42;
+
+    margin-bottom: 8px;
 }
 
 .section-title-txt {
@@ -454,6 +462,12 @@ img {
     color: #434455;
 }
 
+
+.section-portfolio-container {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
 
 
 
@@ -471,7 +485,9 @@ img {
 
 .footer {
     background: #2e2f42;
-}
+    padding: 100px 0;
+
+} 
 
 .footer-logo {
     font-family: "Raleway", sans-serif;
@@ -482,6 +498,8 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     /* Для кольору логотипу */
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo-color {
