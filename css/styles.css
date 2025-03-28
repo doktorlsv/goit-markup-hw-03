@@ -176,7 +176,18 @@ margin: 0 auto;
     letter-spacing: 0.02em;
     color: #434455;
 }
+.container-hight {
 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    padding: 0 15px;
+
+    width: 1158px;
+}
 
 
 
@@ -338,8 +349,11 @@ margin: 0 auto;
 }
 
 
-
-
+.white-hero {
+    display: flex;
+    gap: 24px;
+    width: calc((100% - 3 * 24px) / 4);
+}
 
 
 
@@ -381,7 +395,7 @@ margin: 0 auto;
 
 .section-darkwhite-item {
     background-color: #FFFFFF;
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 
