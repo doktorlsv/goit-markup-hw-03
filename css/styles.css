@@ -281,16 +281,20 @@ margin: 0 auto;
 
 
 
+.subtitle-white-one {
+    width: calc((100% - 72px) / 4);
 
+}
 
 
 
 .section-white {
     background-color: #FFFFFF;
     padding: 120px 0;
+   
 }
 
-.subtitle-white-one {}
+
 
 .section-white-navigation {
     
@@ -338,7 +342,15 @@ margin: 0 auto;
 
 
 }
-.visually-hidden {
+
+
+
+.white-hero {
+    display: flex;
+    gap: 24px;
+    width: calc((100% - 3 * 24px) / 4);
+}
+.section-white h2:first-of-type {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -349,14 +361,6 @@ margin: 0 auto;
     clip-path: inset(50%);
     overflow: hidden;
 }
-
-
-.white-hero {
-    display: flex;
-    gap: 24px;
-    width: calc((100% - 3 * 24px) / 4);
-}
-
 
 
 
