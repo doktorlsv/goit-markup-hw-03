@@ -23,6 +23,10 @@ h6 {
 }
 
 
+* {
+    box-sizing: border-box;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -311,7 +315,7 @@ margin: 0 auto;
 
 
 .section-title-new {
-    
+
         font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 20px;
