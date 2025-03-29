@@ -407,6 +407,11 @@ margin: 0 auto;
     
 }
 
+.dark-container {
+
+    padding: 32px 0
+}
+
 .subtitle {
     text-transform: capitalize;
     font-family: "Roboto", sans-serif;
@@ -448,9 +453,13 @@ margin: 0 auto;
 }
 
 
-.section-title,
+.section-title {
+    text-align: center;
+    margin-bottom: 8px
+}
 .section-darkwhite-txt {
     padding: 16px 0;
+    text-align: center;
 }
 
 
