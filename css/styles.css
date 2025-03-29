@@ -293,16 +293,17 @@ margin: 0 auto;
 
 
 
-.section-white-navigation {
+.section-white-nav {
     
     display: flex;
     gap: 24px;
+    
 
 }
 
 .section-white-item {
     
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
 
 }
@@ -338,16 +339,28 @@ margin: 0 auto;
 
 
 
-.white-hero {
+.white-hero-block {
     display: flex;
-    gap: 24px;
-    width: calc((100% - 3 * 24px) / 4);
-    
-   
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    width: calc((100% - 3 * 24px) / 4);
 }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+
+
 
 
 
