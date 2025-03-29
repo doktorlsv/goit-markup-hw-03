@@ -54,9 +54,8 @@ img {
 
 .container {
   
-width: 1166px;
-padding-left: 15px;
-padding-right: 15px;
+max-width: 1158px;
+padding: 0 15px;
 margin: 0 auto;
  
         
@@ -95,9 +94,13 @@ margin: 0 auto;
    
 }
 
+
+
+
+
 .header-logo .header-logo-color {
  padding: 24px 0;
- margin-right: 76px
+ margin-right: 76px;
 }
 
 
@@ -116,6 +119,10 @@ margin: 0 auto;
 
 .header-logo-color {
     color: #2e2f42;
+
+
+
+
 
 }
 
@@ -162,7 +169,7 @@ margin: 0 auto;
 .address-navigation {
     display: flex;
     align-items: center;
-    /* margin-left: auto; */
+    /*  margin-left: auto; */
     gap: 40px;
     
 }
