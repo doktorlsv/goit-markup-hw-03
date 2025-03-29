@@ -4,8 +4,11 @@ body {
     background-color: #FFFFFF;
 }
 
-ul {
+ul,
+ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -23,11 +26,11 @@ h6 {
 }
 
 
-* {
+/* * {
     box-sizing: border-box;
-}
+} */
 
-.visually-hidden {
+/* .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -38,7 +41,7 @@ h6 {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
+} */
 
 
 img {
@@ -69,30 +72,32 @@ margin: 0 auto;
 
 .header {
     background: #fff;
-    border-bottom: 1px solid;
+    /* border-bottom: 1px solid; */
 
     border-bottom: 1px solid #e7e9fc;
     box-sizing: border-box;
+
+
 }
 
-
-.container-header {
+.header-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-   
-    /* max-width: 1200px; */
-    margin: 0 auto;
-    padding: 0 15px;
-
-    width: 1158px;
 }
+
+
+
 
 .header-navigation {
     display: flex;
     align-items: center;
     gap: 40px;
    
+}
+
+.header-logo .header-logo-color {
+ padding: 24px 0;
+ margin-right: 76px
 }
 
 
@@ -105,7 +110,7 @@ margin: 0 auto;
     text-transform: uppercase;
     color: #4d5ae5;
   
-    margin-right: 76px
+    /* margin-right: 76px */
 
 }
 
@@ -125,7 +130,8 @@ margin: 0 auto;
 }
 
 .header-menu-item {
-     padding: 24px 0; 
+    display: block;
+    padding: 24px 0; 
 
 }
 
@@ -147,14 +153,16 @@ margin: 0 auto;
 
 .address {
     
-    display: flex;
-    gap: 20px;
+    /* display: flex; */
+    /* gap: 20px; */
     font-style: normal;
+    margin-left: auto;
 }
 
 .address-navigation {
     display: flex;
-    margin-left: auto;
+    align-items: center;
+    /* margin-left: auto; */
     gap: 40px;
     
 }
@@ -174,6 +182,8 @@ margin: 0 auto;
 }
 
 .address-link {
+    display: block;
+    padding: 24px 0;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -586,14 +596,14 @@ border-top: none;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    /* Для кольору логотипу */
+    
     display: inline-block;
     margin-bottom: 16px;
 }
 
 .footer-logo-color {
     color: #f4f4fd;
-    /* Колір для "Studio" */
+   
 }
 
 .footer-txt {
