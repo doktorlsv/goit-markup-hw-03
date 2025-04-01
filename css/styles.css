@@ -358,10 +358,9 @@ margin-right: 76px;
     margin: -1px;
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
     border: 0;
+    white-space: nowrap;
 }
-
 
 
 
@@ -431,7 +430,11 @@ margin-right: 76px;
     padding: 32px 0;
 }
 
+.section-portfolio-nav {
+    padding: 32px 0;
 
+
+}
 
     
 
