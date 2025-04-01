@@ -31,7 +31,8 @@ h6 {
 img {
     display: block;
     max-width: 100%;
- 
+    
+    padding: 32px 0;
     height: auto;
  
 }
@@ -431,6 +432,8 @@ margin: 0 auto;
 .dark-container {
     padding: 32px 0;
 }
+
+
 
     
 
