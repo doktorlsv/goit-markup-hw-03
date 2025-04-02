@@ -430,7 +430,7 @@ margin-right: 76px;
     padding: 32px 0;
 }
 
-.section-portfolio-nav {
+.section-portfolio-con {
     padding: 32px 0;
 
 
@@ -496,6 +496,7 @@ margin-right: 76px;
     color: #2e2f42;
 
     margin-bottom: 8px;
+    /* margin-left: 16px; */
 }
 
 .section-title-txt {
@@ -508,7 +509,12 @@ margin-right: 76px;
 }
 
 
+.portfolio-info {
 
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
 
 
 
