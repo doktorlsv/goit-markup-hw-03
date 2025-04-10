@@ -160,22 +160,7 @@ img {
 
 }
 
-.relative-link::after {
-    content: '';
 
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    width: 48px;
-
-    height: 4px;
-
-    background: #404bbf;
-
-    border-radius: 2px;
-
-
-}
 
 
 
